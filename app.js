@@ -35,6 +35,10 @@ app.use("/api/v1/jobs", authenticateUser, jobsRouter);
 //   res.sendFile(path.resolve(__dirname, './client/build', 'index.html'));
 // });
 
+app.get("/", (req, res) => {
+  res.send("Jobs API");
+});
+
 app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);
 

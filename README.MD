@@ -1,6 +1,6 @@
 # Jobster-API
 
-A Simple REST-API to maintain a user's jobs interview status built usind Node.js.
+A Simple REST-API to maintain a user's jobs interview status built using Node.js.
 
 - Implemented user authentication (protected route) using JWT
 - Data are stored and fetched using Mongoose (MongoDB)
